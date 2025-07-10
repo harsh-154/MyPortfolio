@@ -4,14 +4,24 @@ import React from 'react';
 const ProjectsSection = () => {
   const projects = [
     {
+      title: 'FinSplit  Expense & Finance Tracker',
+      description: 'A full-featured personal finance and group expense manager with Splitwise-like functionality, dark mode, and animated UI. Supports bill tracking, personal logs, and group settlements.',
+      tech: ['React', 'Firebase', 'Framer Motion', 'Tailwind CSS', 'Context API'],
+      github: 'https://github.com/harsh-154/FinManager', // replace with actual GitHub link
+      demo: 'https://finmanager-6e44c.web.app/', // replace with actual deployment URL
+      gradientFrom: 'blue-400',
+      gradientTo: 'pink-400',
+      borderColor: 'border-blue-500'
+    },
+     {
       title: 'Facebook Clone',
       description: 'A full-stack social media application that allows users to post, like, comment, and manage friend requests. Includes user authentication and clean UI.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB','jwt authentication'],
+      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Auth'],
       github: 'https://github.com/harsh-154/Social-Media-Facebook-Clone-',
-      demo: 'https://facebook-clone-demo.vercel.app', // use your actual deployed link
-      gradientFrom: 'purple-400',
-      gradientTo: 'blue-400',
-      borderColor: 'border-purple-500'
+      demo: 'https://facebook-clone-demo.vercel.app',
+      gradientFrom: 'blue-400',
+      gradientTo: 'pink-400',
+      borderColor: 'border-blue-500'
     },
     {
       title: 'PersonalNotes App',
