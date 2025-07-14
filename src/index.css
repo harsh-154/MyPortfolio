@@ -2,3 +2,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes bar-fill {
+  0% { width: 0; }
+  100% { width: var(--bar-width, 100%); }
+}
+.bar-animate {
+  animation: bar-fill 1.2s cubic-bezier(0.4,0,0.2,1) forwards;
+}
+
+@keyframes fade-in-up-skill {
+  0% { opacity: 0; transform: translateY(24px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up-skill {
+  animation: fade-in-up-skill 0.8s ease-out both;
+}
+
+.bar-shadow {
+  box-shadow: 0 2px 16px 0 rgba(80, 80, 255, 0.15), 0 1.5px 8px 0 rgba(128, 0, 255, 0.10);
+}

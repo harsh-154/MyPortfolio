@@ -5,7 +5,7 @@ import { Linkedin, Code, Award, Github } from 'lucide-react'; // Ensure all soci
 const Footer = ({ socialLinks }) => {
   return (
     <footer className="bg-black bg-opacity-80 text-gray-400 text-center py-6 px-4">
-      <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Harsh Laddha. All rights reserved.</p>
       <div className="flex justify-center space-x-6 mt-4">
         {socialLinks.map((link) => (
           <a

@@ -7,8 +7,9 @@ import AboutSection from './sections/AboutSection.jsx';
 import AchievementsSection from './sections/AchievementsSection.jsx';
 import ContactSection from './sections/ContactSection.jsx';
 import Footer from './components/Footer.jsx';
+import SkillsSection from './sections/SkillsSection.jsx';
 
-import { Linkedin, Code, Award, Github, Briefcase, User, Mail } from 'lucide-react';
+import { Linkedin, Github, Code, Award, Briefcase, User, Mail } from 'lucide-react';
 
 const App = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -71,23 +72,37 @@ const App = () => {
   const navItems = [
     { id: 'projects', label: 'Projects', icon: Briefcase },
     { id: 'about', label: 'About Me', icon: User },
+    { id: 'skills', label: 'Skills', icon: Code },
     { id: 'achievements', label: 'Achievements', icon: Award },
     { id: 'contact', label: 'Contact Me', icon: Mail },
   ];
 
   const socialLinks = [
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/your-linkedin-profile' },
-     {
-    name: 'LeetCode',
-    icon: ()=>(
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
-        alt="LeetCode"
-        className="w-6 h-6"
-      />
-    ), url: 'https://leetcode.com/your-leetcode-profile' },
-    { name: 'Codeforces', icon: Code, url: 'https://codeforces.com/profile/your-codeforces-profile' },
-    { name: 'GitHub', icon: Github, url: 'https://github.com/your-github-username' }
+    {
+      name: 'LinkedIn',
+      icon: Linkedin,
+      url: 'https://www.linkedin.com/in/harsh-laddha-004160262',
+    },
+    {
+      name: 'LeetCode',
+      icon: () => (
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" style={{display:'inline'}}>
+          <rect width="32" height="32" rx="16" fill="#181717"/>
+          <path d="M21.5 10.5L16 5L10.5 10.5M10.5 21.5L16 27L21.5 21.5M5 16H27" stroke="#FFA116" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      ),
+      url: 'https://leetcode.com/u/laddhaharsh154/',
+    },
+    {
+      name: 'Codeforces',
+      icon: Code,
+      url: 'https://codeforces.com/profile/harsh_154',
+    },
+    {
+      name: 'GitHub',
+      icon: Github,
+      url: 'https://github.com/harsh-154',
+    },
   ];
 
   return (
@@ -113,6 +128,7 @@ const App = () => {
         <HomeSection />
         <ProjectsSection />
         <AboutSection />
+        <SkillsSection />
         <AchievementsSection />
         <ContactSection />
       </main>
