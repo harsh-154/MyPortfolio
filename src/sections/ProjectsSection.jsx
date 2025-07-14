@@ -3,37 +3,48 @@ import React from 'react';
 
 const ProjectsSection = () => {
   const projects = [
-    {
-      title: 'FinSplit  Expense & Finance Tracker',
-      description: 'A full-featured personal finance and group expense manager with Splitwise-like functionality, dark mode, and animated UI. Supports bill tracking, personal logs, and group settlements.',
-      tech: ['React', 'Firebase', 'Framer Motion', 'Tailwind CSS', 'Context API'],
-      github: 'https://github.com/harsh-154/FinManager', // replace with actual GitHub link
-      demo: 'https://finmanager-6e44c.web.app/', // replace with actual deployment URL
-      gradientFrom: 'blue-400',
-      gradientTo: 'pink-400',
-      borderColor: 'border-blue-500'
-    },
-     {
-      title: 'Facebook Clone',
-      description: 'A full-stack social media application that allows users to post, like, comment, and manage friend requests. Includes user authentication and clean UI.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Auth'],
-      github: 'https://github.com/harsh-154/Social-Media-Facebook-Clone-',
-      demo: 'https://facebook-clone-demo.vercel.app',
-      gradientFrom: 'blue-400',
-      gradientTo: 'pink-400',
-      borderColor: 'border-blue-500'
-    },
-    {
-      title: 'PersonalNotes App',
-      description: 'A cloud note manager that allows users to add, edit, and delete notes securely with login support. Built with MERN stack.',
-      tech: ['React', 'Express', 'MongoDB','Node.js','jwt authentication'],
-      github: 'https://github.com/harsh-154/Notes-App-by-React',
-      demo: 'https://personalnotes-demo.vercel.app',
-      gradientFrom: 'blue-400',
-      gradientTo: 'pink-400',
-      borderColor: 'border-blue-500'
-    }
-  ];
+  {
+    title: 'FinSplit Expense & Finance Tracker',
+    description: 'A full-featured personal finance and group expense manager with Splitwise-like functionality, dark mode, and animated UI. Supports bill tracking, personal logs, and group settlements.',
+    tech: ['React', 'Firebase', 'Framer Motion', 'Tailwind CSS', 'Context API'],
+    github: 'https://github.com/harsh-154/FinManager',
+    demo: 'https://finmanager-6e44c.web.app/',
+    gradientFrom: 'blue-400',
+    gradientTo: 'pink-400',
+    borderColor: 'border-blue-500'
+  },
+  {
+    title: 'Facebook Clone',
+    description: 'A full-stack social media application that allows users to post, like, comment, and manage friend requests. Includes user authentication and clean UI.',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Auth'],
+    github: 'https://github.com/harsh-154/Social-Media-Facebook-Clone-',
+    demo: 'https://facebook-clone-demo.vercel.app',
+    gradientFrom: 'blue-400',
+    gradientTo: 'pink-400',
+    borderColor: 'border-blue-500'
+  },
+  {
+    title: 'PersonalNotes App',
+    description: 'A cloud note manager that allows users to add, edit, and delete notes securely with login support. Built with MERN stack.',
+    tech: ['React', 'Express', 'MongoDB', 'Node.js', 'JWT Authentication'],
+    github: 'https://github.com/harsh-154/Notes-App-by-React',
+    demo: 'https://personalnotes-demo.vercel.app',
+    gradientFrom: 'blue-400',
+    gradientTo: 'pink-400',
+    borderColor: 'border-blue-500'
+  },
+  {
+    title: 'Supply Chain Resilience Dashboard',
+    description: 'A predictive analytics tool to assess supplier risks and optimize supply chain strategies. Features an interactive dashboard and map visualization for strategic insights.',
+    tech: ['React', 'FastAPI', 'Python', 'XGBoost', 'Pandas', 'Leaflet.js'],
+    github: 'https://github.com/harsh-154/Supplier-Predictor',
+    demo: 'https://supplier-predictor.vercel.app/',
+    gradientFrom: 'blue-400',
+    gradientTo: 'pink-400',
+    borderColor: 'border-blue-500'
+  }
+];
+
 
   return (
     <section id="projects" className="min-h-screen py-16 px-4 md:px-8">
