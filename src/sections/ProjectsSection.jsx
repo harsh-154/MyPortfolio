@@ -14,21 +14,11 @@ const ProjectsSection = () => {
     borderColor: 'border-blue-500'
   },
   {
-    title: 'Facebook Clone',
-    description: 'A full-stack social media application that allows users to post, like, comment, and manage friend requests. Includes user authentication and clean UI.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT Auth'],
-    github: 'https://github.com/harsh-154/Social-Media-Facebook-Clone-',
-    demo: 'https://facebook-clone-demo.vercel.app',
-    gradientFrom: 'blue-400',
-    gradientTo: 'pink-400',
-    borderColor: 'border-blue-500'
-  },
-  {
     title: 'PersonalNotes App',
     description: 'A cloud note manager that allows users to add, edit, and delete notes securely with login support. Built with MERN stack.',
     tech: ['React', 'Express', 'MongoDB', 'Node.js', 'JWT Authentication'],
     github: 'https://github.com/harsh-154/Notes-App-by-React',
-    demo: 'https://personalnotes-demo.vercel.app',
+    demo: 'https://notes-app-by-react.vercel.app/',
     gradientFrom: 'blue-400',
     gradientTo: 'pink-400',
     borderColor: 'border-blue-500'

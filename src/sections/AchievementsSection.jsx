@@ -13,29 +13,13 @@ const AchievementsSection = () => {
       borderHover: 'border-purple-500'
     },
     {
-      title: 'Top 1% on LeetCode',
-      description: 'Global top 1% ranked on LeetCode. Solved 400+ DSA problems including advanced topics like DP, Graphs, and Tries.',
-      icon: Code,
-      iconColor: 'text-blue-400',
-      gradient: 'from-blue-400 to-pink-400',
-      borderHover: 'border-blue-500'
-    },
-    {
       title: 'Teaching Assistant – PPS',
       description: 'Guided first-year students in Programming for Problem Solving labs. Awarded certificate for excellent mentoring.',
       icon: GraduationCap,
       iconColor: 'text-green-400',
       gradient: 'from-green-400 to-lime-400',
       borderHover: 'border-green-500'
-    },
-    {
-      title: 'Certified Prompt Engineer (Vertex AI)',
-      description: 'Earned skill badge from Google Cloud for crafting prompts, using Gemini models, and applying multimodal AI in real-world tasks.',
-      icon: Award,
-      iconColor: 'text-orange-400',
-      gradient: 'from-orange-400 to-red-400',
-      borderHover: 'border-orange-500'
-    },
+    }
   ];
 
   return (
